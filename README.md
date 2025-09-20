@@ -1,5 +1,8 @@
-# Planejamento-de-release-Gest-o-de-Projetos-de-Software
+# Planejamento de Release - Gestão de Projetos de Software
 
-# Integrantes :
-Gustavo Barros Tenório \n;
-Luiz Henrrique Gonçalves
+Este repositório contém o planejamento de release desenvolvido para a disciplina de Gestão de Projetos de Software.
+
+### Integrantes
+
+* Gustavo Barros Tenório
+* Luiz Henrique Gonçalves
