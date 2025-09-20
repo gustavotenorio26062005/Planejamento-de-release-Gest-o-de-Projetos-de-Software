@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">Bem-vindo, {{ session.get('username') }}!</h1>
+    <p class="lead">Esta é a sua página principal do sistema. Navegue pelas opções abaixo.</p>
+    <hr class="my-4">
+    <p>Seu nível de acesso é: <strong>{{ session.get('role') }}</strong></p>
+    
+    <div class="d-grid gap-2 col-6 mx-auto mt-4">
+        {% if session.get('role') == 'admin' %}
+        <a class="btn btn-primary" href="{{ url_for('users_management') }}">Gerenciar Usuários</a>
+        {% endif %}
+        </div>
+</div>
+{% endblock %}

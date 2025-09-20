@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-center mt-5">
+    <div class="card p-4 shadow" style="width: 100%; max-width: 400px;">
+        <h5 class="card-title text-center mb-4">Acesso ao Sistema</h5>
+        <form method="post">
+            <div class="mb-3">
+                <label for="username" class="form-label">Usuário</label>
+                <input type="text" class="form-control" id="username" name="username" placeholder="Digite seu usuário" required>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label">Senha</label>
+                <input type="password" class="form-control" id="password" name="password" placeholder="Digite sua senha" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-100 mt-3">ENTRAR</button>
+            <a href="{{ url_for('cadastro') }}" class="text-center mt-3 d-block">Não tenho cadastro</a>
+        </form>
+    </div>
+</div>
+{% endblock %}
