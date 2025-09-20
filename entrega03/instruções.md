@@ -17,22 +17,22 @@ Para rodar este projeto, você precisa ter o **Python 3** instalado na sua máqu
 
 O projeto é organizado na seguinte estrutura de pastas:
 
-projeto-sistemahipoterico/
-│
-├── app.py           # Onde está toda a lógica do servidor (backend)
-│
-├── database.db      # Arquivo do banco de dados SQLite (será criado automaticamente)
-│
-├── static/
-│   ├── logobra.png
-│   └── style.css
-│
-└── templates/
-├── base.html        # Layout base para todas as páginas
-├── index.html       # Página de login
-├── cadastro.html    # Página de cadastro
-├── dashboard.html   # Página principal do usuário (admin/operador)
-└── usuarios.html    # Página de gerenciamento de usuários (apenas para admin)
+*projeto-sistemahipoterico/
+*│
+*├── app.py           # Onde está toda a lógica do servidor (backend)
+*│
+*├── database.db      # Arquivo do banco de dados SQLite (será criado automaticamente)
+*│
+*├── static/
+*│   ├── logobra.png
+*│   └── style.css
+*│
+*└── templates/
+*├── base.html        # Layout base para todas as páginas
+*├── index.html       # Página de login
+*├── cadastro.html    # Página de cadastro
+*├── dashboard.html   # Página principal do usuário (admin/operador)
+*└── usuarios.html    # Página de gerenciamento de usuários (apenas para admin)
 
 
 ## Como Rodar o Projeto
